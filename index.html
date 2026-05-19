@@ -103,12 +103,10 @@
     .controls button:hover { color: var(--ink); }
     .controls button:disabled { opacity: 0.5; cursor: wait; }
     .controls .gear {
-      font-style: normal;
-      font-size: 1rem;
-      opacity: 0.4;
       margin-left: auto;
+      opacity: 0.7;
     }
-    .controls .gear:hover { opacity: 0.9; }
+    .controls .gear:hover { opacity: 1; }
 
     /* Settings panel — appears below controls when opened. Matches the
        manifesto aesthetic; not a popover. Slim, in-flow. */
@@ -213,7 +211,7 @@
 
     <div class="controls">
       <button id="readBtn" type="button">▸ read aloud</button>
-      <button id="gearBtn" class="gear" type="button" aria-label="Settings">⚙</button>
+      <button id="gearBtn" class="gear" type="button" aria-label="Settings">settings</button>
     </div>
 
     <div class="settings" id="settings">
