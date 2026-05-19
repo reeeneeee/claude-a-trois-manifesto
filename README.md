@@ -1,6 +1,6 @@
 # claude-à-trois — manifesto
 
-A single page. Eggshell ink on dark grey, EB Garamond, paper grain.
+A single page. Eggshell on dark grey, system type, paper grain.
 
 Live: https://reeeneeee.github.io/claude-a-trois-manifesto/
 

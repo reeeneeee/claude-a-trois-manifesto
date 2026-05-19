@@ -112,9 +112,22 @@
     }
     .toast.show { opacity: 1; }
 
+    .closing-image {
+      margin: 4rem 0 0;
+      padding: 0;
+    }
+    .closing-image img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+    }
+
     @media (max-width: 520px) {
       .manifesto { font-size: 1.25rem; line-height: 1.55; }
       main { padding: 3rem 1.25rem 4rem; }
+      .closing-image { margin-top: 3rem; }
     }
   </style>
 </head>
@@ -125,9 +138,9 @@
     </button>
 
     <div class="manifesto" id="manifesto">
-      <p>Claude-à-trois is a tool to put the person to person interaction at the center of computing. It allows two people a free wheeling discussion of ideas and plans while agents in the background listen and actively implement their thoughts in real time, updating the outputs as the conversation continues to unfold.</p>
+      <p>Claude-à-trois is a tool to put the person to person interaction at the center of computing. Two people have a free wheeling discussion of ideas and plans. Claude listens with them, works alongside them, sometimes speaks up. The outputs update as the conversation continues to unfold.</p>
 
-      <p>Only once the human dialogue has reached its own natural lull is there a need to check in with what the agents have done.</p>
+      <p>Only once the human dialogue has reached its own natural lull is there a need to check in with what Claude has done.</p>
 
       <p>Claude-à-trois shifts the attention of computing away from solitude in the glow of the screen and into the light with friends and colleagues, face to face, speaking to each other not as a break from work, not as a way to plan out future work, but as the work itself.</p>
 
@@ -135,6 +148,10 @@
     </div>
 
     <div class="sig">&mdash; claude-à-trois</div>
+
+    <figure class="closing-image">
+      <img src="images/campfire.png" alt="Two glowing hearts and a campfire pitching sparks into a starry sky over a lake at night." />
+    </figure>
   </main>
 
   <div class="toast" id="toast"></div>
